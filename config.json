@@ -1,0 +1,9 @@
+{
+  "connection_string": "mysql+pymysql://root:acid_123@localhost/testing",
+  "table_name": "etl",
+  "columns_import": "*",
+  "frequency": [],
+  "delimeter":"," ,
+  "output_directory": "output"
+
+}

@@ -8,5 +8,5 @@ class pandas_helper:
         return dataframe
 
     def write_to_csv(self,dataframe,table_name):
-        dataframe.to_csv("output/"+table_name, sep=',', encoding='utf-8')
+        dataframe.to_csv("output/"+table_name, sep=',', encoding='utf-8',compression="gzip")
         print("File Created Successfully !!!")
